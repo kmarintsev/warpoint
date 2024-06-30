@@ -1,0 +1,20 @@
+.pricingList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  margin-right: 60px; 
+}
+
+.bullet {
+  width: 30px;
+  height: 6px;
+  margin-right: 25px;
+  display: inline-block;
+}

@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tariffButton {
+    display: inline-block;
+    font-size: 48px;
+    background-color: #1adbf0;
+    color: #333;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.tariffButton:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-2px);
+}

@@ -1,0 +1,18 @@
+.currencySelector {
+    margin: 16px 0;
+    text-align: center;
+  }
+  
+  .currencyDropdown {
+    padding: 8px 16px;
+    font-size: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: border-color 0.3s;
+  }
+  
+  .currencyDropdown:focus {
+    outline: none;
+    border-color: #000;
+  }

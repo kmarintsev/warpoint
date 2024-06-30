@@ -1,0 +1,32 @@
+.title {
+  text-align: center;
+  font-size: 60px;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.totalPriceContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.totalPrice {
+  font-size: 42px;
+  font-weight: bold;
+}
+.paymentButton {
+  font-size: 32px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.paymentButton:hover {
+  background-color: #0056b3;
+}

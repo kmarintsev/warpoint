@@ -1,0 +1,14 @@
+.paymentContainer {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.amount {
+  font-size: 1.5em;
+  font-weight: bold;
+}
